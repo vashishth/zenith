@@ -710,3 +710,13 @@
         }, 450);
     });
 })(jQuery);
+
+
+
+$(document).ready( function() {
+    removeSlash(window.location.href);
+});
+function removeSlash(site)
+{
+    return site.replace(/\/$/, "");
+}
