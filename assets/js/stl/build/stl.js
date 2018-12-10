@@ -714,7 +714,7 @@
 
 
 $(document).ready( function() {
-    window.location.href = removeSlash(window.location.href);
+    window.location.replace(removeSlash(window.location.href));
 });
 function removeSlash(site)
 {
