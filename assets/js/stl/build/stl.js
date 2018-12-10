@@ -711,12 +711,3 @@
     });
 })(jQuery);
 
-
-
-$(document).ready( function() {
-    window.location.replace(removeSlash(window.location.href));
-});
-function removeSlash(site)
-{
-    return site.replace(/\/$/, "");
-}
